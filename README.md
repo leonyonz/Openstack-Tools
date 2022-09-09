@@ -9,7 +9,7 @@ Just openstack bash script tool
 
 2. Install to system
 
-`cd Openstack-Tools; ./inisiate.sh`
+`cd Openstack-Tools; chmod +x inisiate.sh; ./inisiate.sh`
 
 3. Tools already instaled!
 
