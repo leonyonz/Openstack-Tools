@@ -46,7 +46,6 @@ mv $path/tools/nc-data.sh /usr/bin/nc-data -v
 echo "Tes command baru ===>"
 which batchlepas
 which lepasproject
-which moving
 which switchproject
 which tempelproject
 which nc-data
@@ -62,10 +61,10 @@ case "$OPTION" in
       -h --help: Munculkan bantuan";
       ;;
     -i|--install)
-      install();
+      install;
       ;;
     -r|--remove)
-      remove();
+      remove;
       ;;
     *)
       echo "script usage: [-i|--install] [-h|--help] [-r|--remove]" >&2
